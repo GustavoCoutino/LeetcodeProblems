@@ -1,6 +1,7 @@
 #include <vector>
 #include <unordered_map>
 #include <iostream>
+
 using namespace std;
 
 class Solution {
@@ -24,6 +25,11 @@ public:
 
 int main(){
     Solution test1;
-    vector<int> vect{2,7,11,15};
+    vector<int> vect;
+    vect.push_back(2);
+    vect.push_back(7);
+    vect.push_back(11);
+    vect.push_back(15);
+
     test1.twoSum(vect, 9);
 }
